@@ -2,7 +2,7 @@ var socket;
 
 
 function setup() {
-	socket = io.connect('https://96.23.134.119:3000');
+	socket = io.connect('https://e6080e19b276.ngrok.io:8000');
 	
     createCanvas(500,500);
     background(0);

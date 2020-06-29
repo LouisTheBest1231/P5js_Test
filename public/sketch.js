@@ -2,7 +2,7 @@ var socket;
 
 
 function setup() {
-	socket = io.connect('https://192.168.1.159:8000');
+	socket = io.connect('http://192.168.1.159:8000');
 	
     createCanvas(500,500);
     background(0);
